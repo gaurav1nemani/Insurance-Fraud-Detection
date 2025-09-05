@@ -1,0 +1,20 @@
+FeatureKey,FeatureName,FriendlyLabel,Group,MeanAbsSHAP
+9,Exposure,Exposure,Other,1.414476850884724
+11,LicAge,Licage,Driver,0.8493750509050186
+15,MariStat,Maristat,Other,0.1398921817238213
+18,VehUsage,Vehusage,Driver,0.2603477805311056
+8,DrivAge,Drivage,Driver,0.3977892389711329
+10,HasKmLimit,Haskmlimit,Vehicle,0.1120098119383374
+17,RiskArea,Riskarea,Geography,0.3871292882584417
+2,BonusMalus,Bonusmalus,Other,0.3749514244095972
+14,LicAge_yrs,Licage Yrs,Driver,0.0980302799318978
+19,age_at_license,Age At License,Driver,0.5977451931759977
+12,LicAgeYears,Licageyears,Driver,0.7410096016845266
+1,BM_Band,Bm Band,Other,0.0599803565097284
+13,LicAge_inconsistent,Licage Inconsistent,Driver,0.0
+6,ClaimNbResp_bucket,Claimnbresp Bucket,Other,0.1810100648846837
+4,ClaimNbNonResp_bucket,Claimnbnonresp Bucket,Other,0.2001276565408689
+5,ClaimNbParking_bucket,Claimnbparking Bucket,Other,0.0952979878065284
+3,ClaimNbFireTheft_bucket,Claimnbfiretheft Bucket,Other,0.084618344524563
+7,ClaimNbWindscreen_bucket,Claimnbwindscreen Bucket,Other,0.2822340801589686
+16,OutUseNb_bucket,Outusenb Bucket,Other,0.0944604827473159
