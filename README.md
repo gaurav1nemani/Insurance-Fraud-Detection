@@ -1,6 +1,6 @@
-# 🚨 Insurance Fraud Detection – End-to-End Project
+# 🚨 Insurance Fraud Detection 🚨
 
-An end-to-end machine learning project to detect fraudulent insurance claims using Python (EDA, feature engineering, model development) and Power BI (business dashboard).  
+A robust machine learning project to detect fraudulent insurance claims using Python (EDA, feature engineering, model development) and Power BI (business dashboard).  
 The solution balances **recall** (fraud detection coverage) and **precision** (investigation efficiency) while providing **interpretable results** for business stakeholders.
 
 ---
