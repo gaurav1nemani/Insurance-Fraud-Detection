@@ -5,7 +5,7 @@ The solution balances **recall** (fraud detection coverage) and **precision** (i
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 Fraudulent claims cause significant financial losses for insurers.  
 This project demonstrates how machine learning can help **identify high-risk claims**, reduce losses, and provide **transparent explanations** for fraud decisions.
@@ -19,7 +19,7 @@ Key components:
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Machine Learning**
   - Handles severe class imbalance with SMOTE.
@@ -46,24 +46,38 @@ Key components:
 
 ## 🛠 Repository Structure
 .
-├── notebooks/ # Jupyter notebooks for EDA & modeling
-│ └── Insurance_Fraud_Detection.ipynb
-├── data/ # Processed datasets (CSV exports for Power BI)
-│ ├── FactClaims.csv
-│ ├── FactModelScores.csv
-│ ├── FactLocalReasons.csv
-│ ├── FactLocalReasonsAgg.csv
-│ ├── DimFeature.csv
-│ └── DimDate.csv
-├── dashboard/ # Power BI artifacts
-│ └── Insurance_Fraud_Dashboard.pbix
-├── src/ # Python utility scripts (preprocessing, SHAP export)
+├── notebooks/
+
+│   └── Insurance_Fraud_Detection.ipynb
+
+├── data/       
+
+│   ├── FactClaims.csv
+
+│   ├── FactModelScores.csv
+
+│   ├── FactLocalReasons.csv
+
+│   ├── FactLocalReasonsAgg.csv
+
+│   ├── DimFeature.csv
+
+│   └── DimDate.csv
+
+├── dashboard/   
+
+│   └── Insurance_Fraud_Dashboard.pbix
+
+├── src/             
+
 ├── requirements.txt
+
 └── README.md
+
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 Clone the repo:
 
@@ -75,14 +89,13 @@ python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 
-📈 Usage
+## Usage
 1. Data Preparation & Modeling
 
-Run the Jupyter notebook:
+2. Run the Jupyter notebook:
 jupyter notebook notebooks/Insurance_Fraud_Detection.ipynb
 
 3. Export Model Outputs for Power BI
-
 The notebook generates CSVs:
 FactClaims
 FactModelScores
@@ -91,8 +104,9 @@ FactLocalReasonsAgg
 DimFeature
 DimDate
 
-3. Open Dashboard
-
+4. Dashboard (Published and Public)
 Open Insurance_Fraud_Dashboard.pbix in Power BI Desktop.
 Or view the published dashboard here:
 👉 Insurance Fraud Detection Dashboard: [Live Dashboard Link](https://app.powerbi.com/links/JUvaJPDvtY?ctid=08983daf-5aca-4f44-bc65-c23ce32d46ec&pbi_source=linkShare)
+
+
