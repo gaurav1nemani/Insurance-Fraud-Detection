@@ -44,7 +44,7 @@ Key components:
 
 ---
 
-## 🛠 Repository Structure
+## Repository Structure
 .
 ├── notebooks/
 
@@ -64,6 +64,10 @@ Key components:
 
 │   └── DimDate.csv
 
+├── r/
+
+│   └── Load and Export Dataset from R.R
+
 ├── dashboard/   
 
 │   └── Insurance_Fraud_Dashboard.pbix
@@ -74,6 +78,37 @@ Key components:
 
 └── README.md
 
+---
+
+## Data Source & Preparation
+
+This project uses the freMPL6 insurance claims dataset, available through the CASdatasets package in R.
+
+We provide two options:
+
+Option A — Quick Start (use the bundled CSV)
+We’ve already exported the dataset for you: data/raw/freMPL6.csv.
+Load it directly in Python with:
+import pandas as pd
+df_raw = pd.read_csv("data/raw/freMPL6.csv")
+
+Option B — Reproduce the export with R (full reproducibility)
+Use the provided R script: r/Load and Export Dataset from R.R.
+Run it from the repo root:
+Rscript "r/Load and Export Dataset from R.R"
+
+⚠️ Note on provenance:
+The dataset originates from actuarial research and teaching materials and is not owned by this repository. We credit the original authors and references below.
+
+References
+Agresti, Alan. 2013. Categorical Data Analysis, 3rd Edition.
+Charpentier, Arthur. 2014. Computational Actuarial Science with R. The R Series. Chapman & Hall/CRC. 
+
+Link Source Project and Author
+Frequency analysis with a Zero Inflated Regression of a French Motor Third Party Liability dataset
+Author: Siharath Julien
+Published: October 1, 2024
+Source Link (file:///C:/Users/Source/OneDrive%20-%20IESEG/Documents/Data%20Projects/Insurance%20Fraud%20Detection/Frequency%20analysis%20with%20a%20Zero%20Inflated%20Regression%20of%20a%20French%20Motor%20Third%20Party%20Liability%20dataset.htm)
 
 ---
 
@@ -107,6 +142,6 @@ DimDate
 4. Dashboard (Published and Public)
 Open Insurance_Fraud_Dashboard.pbix in Power BI Desktop.
 Or view the published dashboard here:
-👉 Insurance Fraud Detection Dashboard: [Live Dashboard Link](https://app.powerbi.com/links/JUvaJPDvtY?ctid=08983daf-5aca-4f44-bc65-c23ce32d46ec&pbi_source=linkShare)
+- Insurance Fraud Detection Dashboard: [Live Dashboard Link](https://app.powerbi.com/links/JUvaJPDvtY?ctid=08983daf-5aca-4f44-bc65-c23ce32d46ec&pbi_source=linkShare)
 
 
